@@ -8,5 +8,9 @@ namespace HomeTask
 {
     class Config
     {
+        private string url;
+        private string nameUser;
+        private string nameRepositorie;
+
     }
 }
