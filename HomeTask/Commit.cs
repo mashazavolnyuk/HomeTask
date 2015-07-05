@@ -14,5 +14,11 @@ namespace HomeTask
         {
             this.textCommit = TextCommit;
         }
+
+        public string getTextCommit()
+        {
+
+            return textCommit;
+        } 
     }
 }
