@@ -8,6 +8,8 @@ namespace HomeTask
 {
     class Commit
     {
-
+        private string ssh;
+        private string textCommit;
+        
     }
 }
