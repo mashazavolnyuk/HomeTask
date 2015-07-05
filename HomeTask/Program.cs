@@ -10,6 +10,8 @@ namespace HomeTask
     {
         static void Main(string[] args)
         {
+            Console.Write("First commit");
+
         }
     }
 }
