@@ -10,6 +10,9 @@ namespace HomeTask
     {
         private string ssh;
         private string textCommit;
-        
+        public Commit(string TextCommit)
+        {
+            this.textCommit = TextCommit;
+        }
     }
 }
