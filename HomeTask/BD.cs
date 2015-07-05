@@ -9,11 +9,15 @@ namespace HomeTask
     class BD
     {
         private string name;
-        private List <Commit> my commit;
+        private List <Commit> mycommit;
 
         public BD(string Name){
             this.name=Name;
         }
 
+     public List<Commit> getAllCommit(){
+         return mycommit;
+     }
+     
     }
 }
